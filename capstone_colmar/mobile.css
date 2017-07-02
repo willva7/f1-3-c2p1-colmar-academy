@@ -1,0 +1,207 @@
+/*Larger screen*/
+@media screen and (min-width: 770px){
+nav.mobileNav{
+  display: none;
+}
+nav.desktopNav{
+  display:flex;
+}
+
+.gallery_mobile_view{
+  display: none;
+}
+
+
+.mobile{
+  display:none;
+}
+}
+
+
+/*Smaller screen*/
+@media screen and (max-width: 770px){
+  .gallery_desktop_view{
+    display: none;
+  }
+nav.desktopNav{
+  display: none;
+
+}
+
+nav.mobileNav{
+  display:flex;
+}
+.desktop{
+  display: none;
+
+}
+
+.mobile{
+  display:block;
+}
+
+.title{
+  display: none;
+}
+
+.flex_container{
+  width: 100%;
+  display: flex;
+flex-wrap: wrap;
+}
+
+.headline{
+  padding: 0 1rem;
+  width: 100%;
+
+}
+.container h1{
+  padding: 0;
+  font-size: 2.5rem;
+}
+
+.headline h1{
+  padding: 2rem 0 0 0;
+
+  font-size: 2rem;
+  text-align: left;
+}
+.headline p{
+  font-size: 1rem;
+  padding: 1.5rem 0;
+  text-align: left;
+}
+
+.button {
+  width: 100%;
+  background-color: #9b9b9b;
+    border: none;
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 1rem;
+}
+
+.left_content{
+width: 100%;
+height: 180px;
+overflow: hidden;
+padding: 0;
+
+}
+
+.left_content_video{
+width: 100%;
+height: 100%;
+overflow: hidden;
+padding: 0;
+
+}
+
+.left_text{
+width: 100%;
+
+}
+.left_text h1{
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+text-align: left;
+
+}
+
+
+
+.left_text p.name{
+  padding-top: 2rem;
+
+}
+
+
+
+
+.container{
+
+margin: 0;
+padding: 2rem 0;
+
+}
+
+.container_m{
+  padding: 1rem;
+}
+
+
+
+.container_m h3{
+  padding: 1rem;
+  font-size: 2rem;
+  padding-bottom: .5rem;
+}
+.container_m p{
+  padding: 1rem;
+  font-size: 1rem;
+  padding-bottom:.5rem;
+}
+.container_m a{
+  padding: 1rem;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  color:blue;
+}
+
+.article_m{
+padding:0 0 2rem 0;
+
+}
+
+.bg_gray_light{
+  border-top: 1px solid #e9eaea;
+  background-color: white;
+  border-bottom: 1px solid #e9eaea;
+}
+
+.gallery_mobile_view{
+  padding: 1rem;
+
+}
+.gallery_mobile_view li{
+  display: block;
+  margin:0.5rem;
+  color:white;
+  background-color:#d8d8d8;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+}
+
+.display_video{
+  padding: 2rem 0 1.5rem 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+footer{
+
+  height: 100%;
+  padding:1rem 1.5rem;
+border-top: none;
+
+
+
+
+
+}
+
+.copyright{
+  width: 100%;
+}
+.terms{
+  display: none;
+}
+
+
+}
